@@ -23,6 +23,7 @@ body{
     
     .top {
         width: 100%;
+        height: auto;
         background-image: url('../images/Logo12.jpg');
         background-blend-mode: overlay;
         background-color: rgba(7, 7, 7, 0.822);
