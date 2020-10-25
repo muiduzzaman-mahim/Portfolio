@@ -40,6 +40,10 @@ body {
     text-align: center;
     padding: 10% 0 2.5% 0;
     transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
 }
 
 .profile-pic img {
@@ -47,12 +51,20 @@ body {
     height: 175px;
     border-radius: 250px;
     transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 .profile-pic img:hover {
     transition: all .5s;
     box-shadow: 0px 0px 35px 0px rgba(4, 148, 129, 0.795);
     transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
 }
 
 .summary {
@@ -65,6 +77,10 @@ body {
 .social-link {
     margin: -1.5% 0px 2.5% 0px;
     transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 .social-link img {
@@ -75,6 +91,10 @@ body {
     margin-left: 1%;
     border-radius: 10px;
     transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 .social-link img:hover {
@@ -85,7 +105,7 @@ body {
     border-style: dashed;
     transform: scale(1.1);
     transition: all .5s;
-    -webkit-transform: scale(1.15);
+    -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
@@ -108,6 +128,10 @@ body {
     box-shadow: 0 0 25px 3px rgba(128, 128, 128, 0.404);
     overflow: hidden;
     transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 .descrip,
@@ -122,6 +146,10 @@ body {
     padding: 25px;
     text-align: justify;
     transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 .port1 a,
@@ -138,6 +166,14 @@ body {
 .ex:hover {
     transform: scale(1.05);
     transition: all .5s;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 .p1,
@@ -201,7 +237,7 @@ body {
 .text h2 {
     width: 70%;
     margin-left: 15%;
-    padding: 2%;
+    padding: 5%;
     border-radius: 10px;
     transition: all 0.5s;
     -webkit-border-radius: 10px;
@@ -217,16 +253,16 @@ body {
 .text h2:hover {
     background-color: #055a53;
     color: whitesmoke;
-    transform: scale(90%);
+    transform: scale(.8);
     transition: all 0.20s;
     -webkit-transition: all 0.20s;
     -moz-transition: all 0.20s;
     -ms-transition: all 0.20s;
     -o-transition: all 0.20s;
-    -webkit-transform: scale(90%);
-    -moz-transform: scale(90%);
-    -ms-transform: scale(90%);
-    -o-transform: scale(90%);
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -o-transform: scale(.8);
 }
 
 .ex {
@@ -236,6 +272,10 @@ body {
     box-shadow: 0 0 25px 3px rgba(128, 128, 128, 0.404);
     transition: all .5s;
     overflow: hidden;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 .ex:hover {
@@ -255,6 +295,10 @@ body {
     text-align: center;
     text-transform: uppercase;
     transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 .ex-w {
@@ -264,7 +308,11 @@ body {
     padding: 20px;
     text-align: justify;
     transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    -webkit-transition: all .5s;
 }
 
 .contact {
@@ -286,6 +334,10 @@ body {
     background-color: white;
     display: inline-block;
     border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .contact-img {
@@ -312,7 +364,6 @@ body {
     padding: 1%;
     width: 100%;
     background-color: rgba(2, 68, 59, 0.897);
-    ;
     overflow: hidden;
     color: white;
 }
