@@ -1,6 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 html {
@@ -14,6 +19,11 @@ html {
 
 body {
     background-color: whitesmoke;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 #time {
@@ -33,6 +43,11 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: whitesmoke;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 .profile-pic {
@@ -72,6 +87,11 @@ body {
     text-align: center;
     font-family: arial;
     padding: 0 0 2.5% 0;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 .social-link {
@@ -95,6 +115,10 @@ body {
     -moz-transition: all .5s;
     -ms-transition: all .5s;
     -o-transition: all .5s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .social-link img:hover {
@@ -155,10 +179,20 @@ body {
 .port1 a,
 .port2 a {
     text-decoration: none;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 .about {
     line-height: 25px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 .about:hover,
@@ -190,10 +224,20 @@ body {
 
 .p1 {
     background-image: url('../images/ac.png');
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 .p2 {
     background-image: url('../images/wd.png');
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 .text {
@@ -325,6 +369,11 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 2.5%;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 .contact-box {
@@ -338,6 +387,11 @@ body {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 .contact-img {
@@ -357,6 +411,11 @@ body {
     padding: 5%;
     background-color: white;
     overflow: hidden;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 .footer1 {
@@ -446,7 +505,6 @@ body {
         margin-left: 5%;
     }
 
-
     .about:hover,
     .skills:hover {
         margin-top: 15%;
@@ -480,6 +538,5 @@ body {
     .home {
         width: 10%;
     }
-
 
 }
