@@ -11,48 +11,52 @@
         href="https://muiduzzaman-mahim.github.io/Demo-Parallax-Pixel-Star/CSS/Background.Animation.css">
     <link rel="shortcut icon" href="images/Logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="CSS/Bootstrap-css.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="CSS/style.css">
     <script src="JS/time.js"></script>
+    <script src="/JS/Navbar.js"></script>
 
 </head>
 
 <body onload=display_ct();>
     <!--Top-->
     <div class="top" id="top">
-        <nav class="navbar">
+        <div style="position: fixed; width: 100%;">
             <!--Time-->
             <div id='time'></div>
-            <div class="navbar-brand ">
-                <a href="#top" class="nav-link"> Weclome to Muiduzzaman's Profile</a>
+            <!-- side menubar  -->
+            <div class="main_menu">
+                <div id="menu_option">
+                    <button class="menu btn btn-success" id="main" onclick="openNav()"><b>Menu</b></button>
+                </div>
+                <script src="../js/sticky_effect.js"></script>
+
+                <div id="mySidebar">
+                    <a class="btn btn-danger font-weight-bold" onclick="closeNav()">Hide</a>
+                    <hr>
+                    <a href="https://muiduzzaman-mahim.github.io/"
+                        class="btn btn-outline-success btn-block font-weight-bold ">WELCOME PAGE</a>
+                    <a href="#about" class="btn btn-outline-success btn-block font-weight-bold ">ABOUT</a>
+                    <a href="#skills" class="btn btn-outline-success btn-block font-weight-bold">SKILLS</a>
+                    <a href="#portfolio" class="btn btn-outline-success btn-block font-weight-bold">PORTFOLIO</a>
+                    <a href="https://muiduzzaman-mahim.github.io/Works.html"
+                        class="btn btn-outline-success btn-block font-weight-bold" target="_blank">PROJECTS LIST</a>
+                    <a href="#experience" class="btn btn-outline-success btn-block font-weight-bold">EXPERIENCE</a>
+
+                    <a href="#study" class="btn btn-outline-success btn-block font-weight-bold">EDUCATION</a>
+                    <a href="#contact" class="btn btn-outline-success btn-block font-weight-bold">CONTACT</a>
+                    <a href="/resume.html" target="_blank"
+                        class="btn btn-outline-success btn-block font-weight-bold">RESUME</a>
+                    <a href="#contact" target="_blank" class="btn btn-outline-success btn-block font-weight-bold">HIRE
+                        ME</a>
+                </div>
             </div>
 
-            <!--Menubar-->
-            <div>
-                <b>
-                    <ul class="nav ">
-                        <li class="nav-item">
-                            <a href="#about" class="nav-link ">ABOUT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#skills" class="nav-link ">SKILLS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#portfolio" class="nav-link ">PORTFOLIO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#experience" class="nav-link "> EXPERIENCE</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#study" class="nav-link "> EDUCATION</a>
-                        </li>
-                        <li class="nav-item" class="nav-link ">
-                            <a href="#contact" class="nav-link ">CONTACT</a>
-                        </li>
-                    </ul>
-                </b>
-            </div>
-        </nav>
 
+            <div class="brand_name">
+                <a href="#top" class="btn btn-success brand_name_main"> Muiduzzaman</a>
+            </div>
+        </div>
 
         <!--Profile Picture-->
         <div class="profile-pic ">
@@ -102,7 +106,7 @@
             <h2>About Me</h2>
             <br>
             <p>
-                I am a Professional Front-End Web Developer. As a web Developer, I've more than 1 year experience. I
+                I am a Professional Front-End Web Developer. As a web Developer, I've more than 2 years experience. I
                 have done some projects and design some websites.<br />
                 My goal is to become a full-stack web developer.
             </p>
@@ -272,17 +276,28 @@
     </div>
 
     <!--Experience-->
-    <h1 id="experience" style="text-align: center;padding: 15px 0 5px 0;">Work Experience</h1>
+    <h1 id="experience" style="text-align: center;padding: 15px 0 5px 0;">Employment Experience</h1>
 
     <div class="experience">
         <div class="ex">
             <div class="ex-g">
-                <h5>September 2018 -present</h5>
+                <h5>January 2021- Present</h5>
+                <br>
+                <h4>BAITSBD</h4>
+            </div>
+            <div class="ex-w">
+                Working as a Senior Software Executive. <br><br> Responsible is to design and develop websites. 
+            </div>
+        </div>
+
+        <div class="ex">
+            <div class="ex-g">
+                <h5>September 2018 - December 2020</h5>
                 <br>
                 <h4>Ashar Alo Online School</h4>
             </div>
             <div class="ex-w">
-                I am working here as an Instructor.
+               Worked here as an Instructor. <br><br> Responsible is to instruct as a teacher. 
             </div>
         </div>
 
@@ -293,8 +308,10 @@
                 <h4>Unisoft Solution Internarional Ltd</h4>
             </div>
             <div class="ex-w">
-                I worked here a data entry operator. This is a project based work. I worked here for an american health
+                Worked here a data entry operator. This is a project based work. I worked here for an american health
                 organization.
+                <br><br>
+                Responsible is to Entry Data in a software and query Data from this software. 
             </div>
         </div>
     </div>
@@ -313,7 +330,8 @@
             <div class="ex-w">
                 <h2>Daffodil International University</h2>
                 <br>
-                I have been studying here since more than 3 years. Now I am studying in 4<sup>th</sup> year 1 <sup>st</sup> semester <br>
+                I have been studying here since more than 3 years. Now I am studying in 4<sup>th</sup> year 1
+                <sup>st</sup> semester <br>
                 Major: Computer Science and Engineering
             </div>
         </div>
