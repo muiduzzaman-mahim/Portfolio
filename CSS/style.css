@@ -124,6 +124,7 @@ body {
     background-size: 100% 100%;
     color: aliceblue;
     transition: all .5s;
+    padding-bottom: 10px;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -ms-transition: all .5s;
@@ -175,7 +176,7 @@ body {
 }
 
 .social-link {
-    margin: -1.5% 0px 2.5% 0px;
+    margin: 0px 0px 10px 0px;
     transition: all .5s;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
@@ -186,23 +187,17 @@ body {
 .social-link img {
     width: 40px;
     height: 40px;
-    background-color: rgb(158, 179, 176);
     padding: 5px 5px 5px 5px;
-    margin-left: 1%;
-    border-radius: 10px;
+    margin-left: 10px;
     transition: all .5s;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -ms-transition: all .5s;
     -o-transition: all .5s;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
 }
 
 .social-link img:hover {
-    background-color: #97d39e;
+    background-color: #000000;
     border-radius: 0px;
     border: 2px;
     border-color: rgba(16, 37, 20, 0.726);
@@ -502,7 +497,7 @@ body {
     text-align: center;
     padding: 1%;
     width: 100%;
-    background-color: rgba(2, 68, 59, 0.897);
+    background-color: #003031;
     overflow: hidden;
     color: white;
 }
