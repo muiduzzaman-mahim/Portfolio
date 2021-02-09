@@ -74,7 +74,8 @@
 
                     <div class="container">
                         <div class="navbar-brand">
-                            <a href="./index.html" class="text-white text-decoration-none"><img src="./images/logo1.jpg" width="40px" height="30px" alt="" style="border-radius: 5px;"> Muiduzzaman</a>
+                            <a href="./index.html" class="text-white text-decoration-none"><img src="./images/logo1.jpg"
+                                    width="40px" height="30px" alt="" style="border-radius: 5px;"> Muiduzzaman</a>
                         </div>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -97,7 +98,8 @@
                                     <a href="#portfolio" class="nav-link text-white font-weight-bold">PORTFOLIO</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="https://muiduzzaman-mahim.github.io/Works.html" target="_blank" class="nav-link text-white font-weight-bold">PROJECTS</a>
+                                    <a href="https://muiduzzaman-mahim.github.io/Works.html" target="_blank"
+                                        class="nav-link text-white font-weight-bold">PROJECTS</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#experience" class="nav-link text-white font-weight-bold">EXPERIENCE</a>
@@ -145,7 +147,8 @@
             </div>
 
             <!--Professional Skills-->
-            <h3 class="font-weight-bold" id="skills" style="text-align: center;padding: 15px 0 5px 0;">Professional Skills</h3>
+            <h3 class="font-weight-bold" id="skills" style="text-align: center;padding: 15px 0 5px 0;">Professional
+                Skills</h3>
 
             <div class="skills">
                 <div class="skill-1">
@@ -297,7 +300,8 @@
             </div>
 
             <!--Experience-->
-            <h3 class="font-weight-bold" id="experience" style="text-align: center;padding: 15px 0 5px 0;">Employment Experience</h3>
+            <h3 class="font-weight-bold" id="experience" style="text-align: center;padding: 15px 0 5px 0;">Employment
+                Experience</h3>
 
             <div class="experience">
                 <div class="ex">
@@ -366,7 +370,7 @@
                         <br>
                     </div>
                     <div class="ex-w">
-                        <h4  class="font-weight-bold">Universiti Tenaga Nasional (UNITEN)</h4>
+                        <h4 class="font-weight-bold">Universiti Tenaga Nasional (UNITEN)</h4>
                         <br>
                         I got the chance to attend an Internarional exchange program for 5 months scholarship from my
                         University. Then I completed 1 semester from UNITEN. <br>
@@ -382,7 +386,7 @@
                         <br>
                     </div>
                     <div class="ex-w">
-                        <h4  class="font-weight-bold">Govt. Ashek Mahmud College, Jamalpur</h4>
+                        <h4 class="font-weight-bold">Govt. Ashek Mahmud College, Jamalpur</h4>
                         <br>
                         I have completed my H.S.C from this College. <br>
                         Major: Science
@@ -397,7 +401,7 @@
                         <br>
                     </div>
                     <div class="ex-w">
-                        <h4  class="font-weight-bold">Jamalpur Zilla School</h4>
+                        <h4 class="font-weight-bold">Jamalpur Zilla School</h4>
                         <br>
                         I have completed my S.S.C from this school. <br>
                         Major: Science
@@ -410,7 +414,7 @@
 
             <div class="contact">
                 <div class="contact-box">
-                    <h4  class="font-weight-bold" style="text-align: center;">Contact Me</h4>
+                    <h4 class="font-weight-bold" style="text-align: center;">Contact Me</h4>
                     <div class="contact-img">
                         <img src="images/linkedin-QR.jpg" alt="linkedin-QR">
 
@@ -449,6 +453,32 @@
                     <a href="#"><img src="images/home-solid.svg" alt="top-back"></a>
                 </div>
             </div>
+        </div>
+
+        <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+        <script>
+            window.fbAsyncInit = function () {
+                FB.init({
+                    xfbml: true,
+                    version: 'v9.0'
+                });
+            };
+
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        <!-- Your Chat Plugin code -->
+        <div class="fb-customerchat" attribution="setup_tool" page_id="101104971665622" theme_color="#67b868"
+            logged_in_greeting="Assalamu Alaykum. You can contact with me."
+            logged_out_greeting="Assalamu Alaykum. You can contact with me.">
         </div>
 
 </body>
