@@ -4503,7 +4503,7 @@ input[type=submit].btn-block {
 .navbar {
     width: 100%;
     position: fixed;
-    background-color: rgba(2, 68, 59, 0.897);
+    background:transparent;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
