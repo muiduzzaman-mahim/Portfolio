@@ -20,13 +20,8 @@ html {
 }
 
 #body1 {
-    background-image: url('../images/Logo12.jpg');
-    background-blend-mode: overlay;
-    background-color: rgba(7, 7, 7, 0.822);
     color: rgb(240, 255, 243);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-image: url('../images/Logo12.jpg');
     font-family: 'Lato', sans-serif;
     transition: all .5s;
     -webkit-transition: all .5s;
@@ -369,14 +364,19 @@ html {
     }
 }
 
-
 #about,
-#contact,
 #experience,
 #project,
 #study,
 #skills,
 #resume {
     display: none;
+}
 
+.myoverlay {
+    background-blend-mode: overlay;
+    background-color: rgba(7, 7, 7, 0.829);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
