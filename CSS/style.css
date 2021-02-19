@@ -192,6 +192,7 @@ html {
 
 .about {
     line-height: 25px;
+    height: 80vh;
     padding: 20px;
     transition: all .5s;
     -webkit-transition: all .5s;
@@ -301,6 +302,10 @@ html {
 
     .social-link img {
         margin: 0;
+    }
+
+    .about {
+        height: auto;
     }
 
     .descrip,
