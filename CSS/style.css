@@ -68,9 +68,9 @@ html {
 }
 
 .mynav li {
-    animation: mynavbar 2s 1;
+    animation: mynavbar 1s 1;
     transition: all .5s;
-    -webkit-animation: mynavbar 2s 1;
+    -webkit-animation: mynavbar 1s 1;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -ms-transition: all .5s;
@@ -142,7 +142,7 @@ html {
 .summary h2,
 .summary h5 {
     animation: text 2s 1;
-    -webkit-animation: text 2s 1;
+    -webkit-animation: text 1s 1;
 }
 
 @keyframes text {
@@ -174,7 +174,7 @@ html {
     padding: 5px 5px 5px 5px;
     margin-left: 10px;
     transition: all .5s;
-    animation: social_media 2s 1;
+    animation: social_media 1s 1;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -ms-transition: all .5s;
