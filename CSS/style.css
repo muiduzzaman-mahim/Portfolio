@@ -60,8 +60,28 @@ html {
     z-index: 2;
     top: 0;
     width: 100%;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
+.mynav li {
+    animation: mynavbar 2s 1;
+    transition: all .5s;
+    -webkit-animation: mynavbar 2s 1;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+@keyframes mynavbar {
+    0% {
+        margin: -50px;
+    }
+}
 
 .top {
     width: 100%;
@@ -119,6 +139,26 @@ html {
     -o-transition: all .5s;
 }
 
+.summary h2,
+.summary h5 {
+    animation: text 2s 1;
+    -webkit-animation: text 2s 1;
+}
+
+@keyframes text {
+    0% {
+        letter-spacing: 0;
+    }
+
+    50% {
+        letter-spacing: 15px;
+    }
+
+    100% {
+        letter-spacing: 0;
+    }
+}
+
 .social-link {
     margin: 0px 0px 10px 0px;
     transition: all .5s;
@@ -134,10 +174,12 @@ html {
     padding: 5px 5px 5px 5px;
     margin-left: 10px;
     transition: all .5s;
+    animation: social_media 2s 1;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -ms-transition: all .5s;
     -o-transition: all .5s;
+    -webkit-animation: social_media 2s 1;
 }
 
 .social-link img:hover {
@@ -156,6 +198,12 @@ html {
     -moz-transition: all .5s;
     -ms-transition: all .5s;
     -o-transition: all .5s;
+}
+
+@keyframes social_media {
+    0% {
+        width: 0;
+    }
 }
 
 .about,
@@ -192,6 +240,7 @@ html {
 
 .about {
     line-height: 25px;
+    height: 80vh;
     padding: 20px;
     transition: all .5s;
     -webkit-transition: all .5s;
@@ -301,6 +350,10 @@ html {
 
     .social-link img {
         margin: 0;
+    }
+
+    .about {
+        height: auto;
     }
 
     .descrip,
