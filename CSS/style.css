@@ -59,7 +59,7 @@ html {
 .mynav {
     z-index: 2;
     top: 0;
-    width: 100%;
+    width: fit-content;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -68,18 +68,31 @@ html {
 }
 
 .mynav li {
-    animation: mynavbar 2.5s 1;
+    animation: mynavbar 1s 1;
     transition: all .5s;
-    -webkit-animation: mynavbar 2.5s 1;
+    -webkit-animation: mynavbar 1s 1;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -ms-transition: all .5s;
     -o-transition: all .5s;
 }
 
+#navhide {
+    display: none;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+#navitem {
+    display: none;
+}
+
 @keyframes mynavbar {
     0% {
-        margin: 200px;
+        margin-left: -150px;
     }
 }
 
@@ -140,8 +153,7 @@ html {
 }
 
 .summary h2,
-.summary h5,
-.text-animation {
+.summary h5 {
     animation: text 3s 1;
     -webkit-animation: text 3s 1;
 }
@@ -149,16 +161,25 @@ html {
 @keyframes text {
     0% {
         letter-spacing: 0;
-        visibility: hidden;
     }
 
     50% {
         letter-spacing: 10px;
-        visibility: hidden;
     }
 
     100% {
         letter-spacing: 0;
+    }
+}
+
+.text-animation {
+    animation: text_animation 2s normal;
+    -webkit-animation: text_animation 2s normal;
+}
+
+@keyframes text_animation {
+    0% {
+        font-size: 0;
     }
 }
 
@@ -214,7 +235,7 @@ html {
         visibility: hidden;
     }
 
-    100% {
+    110% {
         visibility: visible;
     }
 }
@@ -224,7 +245,7 @@ html {
 .experience {
     width: 80%;
     height: auto;
-    margin: 1.5% 0 2.5% 10%;
+    margin: 1.5% 0 75px 10%;
     background-color: rgb(29, 29, 29);
     color: rgb(209, 252, 226);
     font-family: Arial, Helvetica, sans-serif;
@@ -351,10 +372,33 @@ html {
     .navbar-nav {
         padding-left: 20%;
     }
-
+.mynav{
+    width: 100%;
+}
     .mynav button {
         width: 150px;
         margin-bottom: 10px;
+    }
+
+    #navshow,
+    #navhide {
+        display: none;
+    }
+
+    .mynav li {
+        animation: mynavbar_responsive 2s 1;
+        transition: all .5s;
+        -webkit-animation: mynavbar_responsive 2s 1;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -ms-transition: all .5s;
+        -o-transition: all .5s;
+    }
+
+    @keyframes mynavbar_responsive {
+        0% {
+            margin: -30px;
+        }
     }
 
     .social-link {
@@ -377,6 +421,7 @@ html {
     .port2 {
         width: 100%;
         height: auto;
+        margin: auto;
     }
 
     .text:hover {

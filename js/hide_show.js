@@ -1,5 +1,5 @@
 // topbar 
-function toplink() {
+function toplink(){
     document.getElementById("top").style.display = "block"
     document.getElementById("about").style.display = "none"
     document.getElementById("skills").style.display = "none"
@@ -7,6 +7,11 @@ function toplink() {
     document.getElementById("experience").style.display = "none"
     document.getElementById("study").style.display = "none"
     document.getElementById("resume").style.display = "none"
+    document.getElementById("navitem").style.display = "none"
+    document.getElementById("navshow").style.display ="block"
+    document.getElementById("navhide").style.display ="none"
+    document.getElementById("navbar").style.width ="fit-content"
+    document.getElementById("navbar").style.backgroundColor ="transparent"
     // document.body.style.backgroundImage = "url('./images/Logo12.jpg')";
 }
 
@@ -18,7 +23,15 @@ function aboutlink() {
     document.getElementById("project").style.display = "none"
     document.getElementById("experience").style.display = "none"
     document.getElementById("study").style.display = "none"
-    document.getElementById("resume").style.display = "none"   
+    document.getElementById("resume").style.display = "none"
+    document.getElementById("navitem").style.display = "none"
+    document.getElementById("navitem").style.display = "none"
+    document.getElementById("navshow").style.display ="block"
+    document.getElementById("navhide").style.display ="none"
+    document.getElementById("nav_coll").style.display ="none"
+    document.getElementById("navbar").style.width ="fit-content"
+    document.getElementById("navbar").style.width ="fit-content"
+    document.getElementById("navbar").style.backgroundColor ="transparent"
     // document.body.style.backgroundImage = "url('./images/logo12.jpg')";
 
 }
@@ -32,6 +45,12 @@ function project() {
     document.getElementById("experience").style.display = "none"
     document.getElementById("study").style.display = "none"
     document.getElementById("resume").style.display = "none"
+    document.getElementById("navitem").style.display = "none"
+    document.getElementById("navshow").style.display ="block"
+    document.getElementById("navhide").style.display ="none"
+    document.getElementById("nav_coll").style.display ="none"
+    document.getElementById("navbar").style.width ="100%"
+    document.getElementById("navbar").style.backgroundColor ="#0000006b"
 }
 
 // skills highlight 
@@ -43,6 +62,12 @@ function skills() {
     document.getElementById("experience").style.display = "none"
     document.getElementById("study").style.display = "none"
     document.getElementById("resume").style.display = "none"
+    document.getElementById("navitem").style.display = "none"
+    document.getElementById("navshow").style.display ="block"
+    document.getElementById("navhide").style.display ="none"
+    document.getElementById("nav_coll").style.display ="none"
+    document.getElementById("navbar").style.width ="fit-content"
+    document.getElementById("navbar").style.backgroundColor ="transparent"
     // document.body.style.backgroundImage = "url('./images/logo13.jpg')"
 }
 
@@ -55,6 +80,12 @@ function exp() {
     document.getElementById("experience").style.display = "block"
     document.getElementById("study").style.display = "none"
     document.getElementById("resume").style.display = "none"
+    document.getElementById("navitem").style.display = "none"
+    document.getElementById("navshow").style.display ="block"
+    document.getElementById("navhide").style.display ="none"
+    document.getElementById("nav_coll").style.display ="none"
+    document.getElementById("navbar").style.width ="fit-content"
+    document.getElementById("navbar").style.backgroundColor ="transparent"
     // document.body.style.backgroundImage = "url('./images/logo13.jpg')"
 }
 
@@ -67,6 +98,12 @@ function study() {
     document.getElementById("experience").style.display = "none"
     document.getElementById("study").style.display = "block"
     document.getElementById("resume").style.display = "none"
+    document.getElementById("navitem").style.display = "none"
+    document.getElementById("navshow").style.display ="block"
+    document.getElementById("navhide").style.display ="none"
+    document.getElementById("nav_coll").style.display ="none"
+    document.getElementById("navbar").style.width ="fit-content"
+    document.getElementById("navbar").style.backgroundColor ="transparent"
     // document.body.style.backgroundImage= "url('./images/logo13.jpg')"
 }
 
@@ -79,6 +116,29 @@ function resume() {
     document.getElementById("experience").style.display = "none"
     document.getElementById("study").style.display = "none"
     document.getElementById("resume").style.display = "block"
+    document.getElementById("navitem").style.display = "none"
+    document.getElementById("navshow").style.display ="block"
+    document.getElementById("navhide").style.display ="none"
+    document.getElementById("nav_coll").style.display ="none"
+    document.getElementById("navbar").style.width ="fit-content"
+    document.getElementById("navbar").style.backgroundColor ="transparent"
     // document.body.style.backgroundImage = "url('./images/logo13.jpg')"
 }
 
+function navbar_show() {
+    document.getElementById("navitem").style.display="flex"
+    document.getElementById("navshow").style.display ="none"
+    document.getElementById("navhide").style.display ="block"
+}
+
+function navbar_hide() {
+    document.getElementById("navitem").style.display="none"
+    document.getElementById("navshow").style.display ="block"
+    document.getElementById("navhide").style.display ="none"
+}
+
+function navbar_show_res(){
+    document.getElementById("navitem").style.display="flex"
+    document.getElementById("navshow").style.display ="none"
+    document.getElementById("navhide").style.display ="none"
+}
