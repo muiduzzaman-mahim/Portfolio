@@ -68,9 +68,9 @@ html {
 }
 
 .mynav li {
-    animation: mynavbar 1s 1;
+    animation: mynavbar 2.5s 1;
     transition: all .5s;
-    -webkit-animation: mynavbar 1s 1;
+    -webkit-animation: mynavbar 2.5s 1;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -ms-transition: all .5s;
@@ -79,7 +79,7 @@ html {
 
 @keyframes mynavbar {
     0% {
-        margin: -50px;
+        margin: 200px;
     }
 }
 
@@ -142,17 +142,19 @@ html {
 .summary h2,
 .summary h5,
 .text-animation {
-    animation: text 2s 1;
-    -webkit-animation: text 1s 1;
+    animation: text 3s 1;
+    -webkit-animation: text 3s 1;
 }
 
 @keyframes text {
     0% {
         letter-spacing: 0;
+        visibility: hidden;
     }
 
     50% {
-        letter-spacing: 15px;
+        letter-spacing: 10px;
+        visibility: hidden;
     }
 
     100% {
@@ -175,12 +177,12 @@ html {
     padding: 5px 5px 5px 5px;
     margin-left: 10px;
     transition: all .5s;
-    animation: social_media 1s 1;
+    animation: social_media 3s 1;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -ms-transition: all .5s;
     -o-transition: all .5s;
-    -webkit-animation: social_media 2s 1;
+    -webkit-animation: social_media 3s 1;
 }
 
 .social-link img:hover {
@@ -204,6 +206,16 @@ html {
 @keyframes social_media {
     0% {
         width: 0;
+        visibility: hidden;
+    }
+
+    80% {
+        width: 0;
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: visible;
     }
 }
 
