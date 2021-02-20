@@ -140,7 +140,8 @@ html {
 }
 
 .summary h2,
-.summary h5 {
+.summary h5,
+.text-animation {
     animation: text 2s 1;
     -webkit-animation: text 1s 1;
 }
