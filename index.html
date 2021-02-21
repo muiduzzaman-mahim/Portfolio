@@ -30,7 +30,7 @@
                         style="border-radius: 5px;"></a>
             </div>
 
-            <div onclick="navbar_show()" id="navshow">
+            <div id="navshow" onclick="navbar_show()">
                 <a href="javascript:void()"><img src="./images/logo1.jpg" width="50px" height="50px" alt=""
                         style="border-radius:50px;"></a>
             </div>
@@ -38,7 +38,7 @@
             <div class="container">
                 <a href="javascript:void()" class="navbar-toggler" data-toggle="collapse"
                     data-target="#navbarSupportedContent" onclick="navbar_show_res()">
-                    <span class="navbar-toggler-icon" id="nav_coll"></span>
+                    <span class="navbar-toggler-icon" id="nav_coll" onclick="nav_coll()"></span>
                 </a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav" id="navitem">
@@ -65,7 +65,7 @@
                                 onclick="study()">EDUCATION</button>
                         </li>
                         <li class="nav-item">
-                            <button class="nav-link text-white btn btn-success mr-3" onclick="resume()">RESUME</button>
+                            <a href="Resume/Muiduzzaman-resume.pdf" target="_blank" class="nav-link text-white btn btn-success mr-3" onclick="navhide()">RESUME DOWNLOAD</a>
                     </ul>
                 </div>
             </div>
@@ -79,7 +79,7 @@
         <div>
             <div class="top" id="top">
                 <!--Profile Picture-->
-                <div class="profile-pic ">
+                <div class="profile-pic" onclick="navbar_show()">
                     <img src="images/Logo11.jpg " alt="sadi 's profile">
                 </div>
 
@@ -284,7 +284,7 @@
                     <div class="row" style="border-top: #7bc9c4 solid 1px;">
                         <div class="col-sm-4 ex-g">
                             <h6>January 2021- Present</h6>
-                            <h5>Techgenixs</h5>
+                            <h5>Easylife IT BD</h5>
                         </div>
                         <div class="col-sm-8 ex-w">
                             Working as a Senior Software Executive. <br> Responsible is to design and develop
@@ -299,7 +299,7 @@
                         </div>
                         <div class="col-sm-8 ex-w">
                             Worked here as an Instructor. <br>
-                            Responsible is to instruct as a Teacher.
+                            Responsible is to instruct as a Virtual Teacher.
                         </div>
                     </div>
 
@@ -309,7 +309,7 @@
                             <h5>Unisoft Solution Internarional Ltd</h5>
                         </div>
                         <div class="col-sm-8 ex-w">
-                            Worked here a data entry operator. This is a project based work. I worked here for an
+                            Worked here as a data entry operator. That was a project based work. I worked here for an
                             american health organization.
                             <br>
                             Responsible is to Entry Data in a software and query Data from this software.
@@ -392,22 +392,9 @@
                 </div>
             </div>
 
-            <!--Resume file-->
-            <div class="container" id="resume">
-                <div id="stars"></div>
-                <div class="resume text-center">
-                    <br>
-                    <h3 class="font-weight-bold text-reg mb-5 mt-5 text-animation"> Muiduzzaman's Resume</h3>
-                    <a href="Resume/Muiduzzaman-resume.pdf" target="_blank">
-                        <button type="submit" class="btn btn-success">Download</button>
-                    </a>
-                    <br><br>
-                    <div class="resume_file">
-                        <embed src="Resume/Muiduzzaman-resume.pdf" />
-                    </div>
-                </div>
-                <br><br>
-            </div>
+            <footer id="footer" class="text-reg">
+                &copy Copyright 2021 Muiduzzaman. All Rights are reserved.
+            </footer>
 
             <!-- Load Facebook SDK for JavaScript -->
             <div id="fb-root"></div>
