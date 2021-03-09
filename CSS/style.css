@@ -3,20 +3,20 @@
 * {
     margin: 0;
     padding: 0;
-    transition: all .5s;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -ms-transition: all .5s;
-    -o-transition: all .5s;
+    transition: all .25s;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
 }
 
 html {
     scroll-behavior: smooth;
-    transition: all .5s;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -ms-transition: all .5s;
-    -o-transition: all .5s;
+    transition: all .25s;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
 }
 
 #body1 {
@@ -55,7 +55,7 @@ html {
 .btn-success {
     background: linear-gradient(150deg, #08272286, #095c4e80, #08272281);
     text-transform: uppercase;
-    border: rgba(4, 99, 43, 0.918) solid 2px;
+    border: rgba(4, 99, 43, 0.918) solid 1px;
     border-radius: 0;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -71,7 +71,7 @@ html {
 .btn-success:hover {
     background: linear-gradient(150deg, #051412ce, #03362efb, #031310ce);
     border-radius: 0;
-    border: rgba(4, 99, 43, 0.918) solid 2px;
+    border: rgba(4, 99, 43, 0.918) solid 1px;
     transform: scale(1.1);
     transition: all 0.5s;
     -webkit-transform: scale(1.1);
@@ -318,12 +318,12 @@ html {
 .about:hover,
 .skills:hover,
 .experience:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
     transition: all .5s;
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    -o-transform: scale(1.05);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -ms-transition: all .5s;
